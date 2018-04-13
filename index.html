@@ -45,18 +45,33 @@
 			<td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
 		</tr>
 </tbody>
-	</table>-->
+	</table>
 
 	<form action="http://www.wikipedia.com" method="GET">
-		<label for="username">Username:</label>
-			<input id="username" type="text" name="username" placeholder="User">
+		<label for="email">email:</label>
+			<input id="email" type="email" name="email" placeholder="email" required>
 		<label>
 			Password:
 		</label>
-		    <input id="password" type="passpord" name="password" placeholder="password">
+		    <input id="password" type="passpord" name="password" placeholder="password" required>
 
 		<button>Submit</button>
-	</form>
+	</form>-->
+<p>Do you prefer dogs or cats?</p>
+<form>
+<label for="dogs">Dogs: </label>
+<input id="dog" type="radio" name="petChoice" value="Dogs">
+<label for="cats">Cats:</label>
+<input id="cats" type="radio" name="petChoice" value="Cats">
+<button>Submit</button>
 
+<select name="Color">
+	<option>Green</option>
+	<option>Red</option>
+	<option>Yellow</option>
+</select>
+<button>Go!</button>
+</form>
+<input type="checkbox" name="checkbox">
 </body>
 </html>
