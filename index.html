@@ -57,21 +57,52 @@
 
 		<button>Submit</button>
 	</form>-->
-<p>Do you prefer dogs or cats?</p>
+<h1>Register</h1>
 <form>
-<label for="dogs">Dogs: </label>
-<input id="dog" type="radio" name="petChoice" value="Dogs">
-<label for="cats">Cats:</label>
-<input id="cats" type="radio" name="petChoice" value="Cats">
-<button>Submit</button>
-
-<select name="Color">
-	<option>Green</option>
-	<option>Red</option>
-	<option>Yellow</option>
+<label for="FirstName">First Name:</label>
+<input id="FirstName" type="text" name="Name" required placeholder="Jan">
+<label for="LastName">Last Name:</label>
+<input id="LastName" type="text" name="Name" required placeholder="Novák">
+<div>
+<LABEL for="Gender">Male</LABEL>
+<input id="Gender" type="radio" name="Gender" required value="Male">
+<LABEL for="Gender">Female</LABEL>
+<input id="Gender" type="radio" name="Gender" required value="Female">
+<LABEL for="Gender">Other</LABEL>
+<input id="Gender" type="radio" name="Gender" required value="Other">
+</div>
+<div>
+<LABEL for="email">Email:</LABEL>
+<input id="email" type="email" name="Login" required>
+<LABEL for="password">Password</LABEL>
+<input id="password" type="password" name="Login" pattern=".{5,10}" required title="5 to 10 charcters" required>
+</div>
+<div>
+<LABEL for="Birthday">Birthday:
+<select id="Birthday" name="Month">
+	<option>Month</option>
+	<option>April</option>
+	<option>May</option>
+	<option>June</option>
 </select>
-<button>Go!</button>
+<select id="Birthday" name="Day">
+	<option>Day</option>
+	<option>10</option>
+	<option>25</option>
+	<option>30</option>
+</select>
+<select name="year" id="Birthday">
+	<option>Year</option>
+	<option>1998</option>
+	<option>1991</option>
+	<option>2013</option>
+</LABEL>
+</select>
+</div>
+<LABEL for="terms">I agree to terms and conditions</LABEL>
+<input id="terms" type="checkbox" name="terms" required>
+<br/>
+<button>Submit</button>
 </form>
-<input type="checkbox" name="checkbox">
 </body>
 </html>

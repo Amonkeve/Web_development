@@ -1,0 +1,19 @@
+body{
+
+	background-color: orange;
+}
+
+li{ /*For just all li*/
+
+	border: 2px solid black;
+}
+
+#special{ /*For just one element*/
+
+	color: yellow;
+}
+
+.completed{/*For as many elements as we want*/
+
+	text-decoration: line-through;
+}

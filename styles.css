@@ -1,0 +1,24 @@
+li{
+color: Purple;
+}
+
+div{
+
+	background: #C7C7C7;
+}
+
+body{
+background: #C7C7C7;
+/*background:url("wood-grain-texture-black-and-white.jpg");
+background-repeat: no-repeat;
+background-size: */ 
+
+}
+
+h1{
+
+	color: rgba(0,200,100, 0.8);
+	border-color: purple;
+	border-width: 5px;
+	border-style:solid;
+}
